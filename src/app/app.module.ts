@@ -16,6 +16,7 @@ import { DrinkAgainComponent } from './drink-again/drink-again.component';
 import { KeepDrinkingComponent } from './keep-drinking/keep-drinking.component';
 import { NewBadgeComponent } from './new-badge/new-badge.component';
 import { WineListComponent } from './wine-list/wine-list.component';
+import { WineKeepDrinkListComponent } from './wine-keep-drink-list/wine-keep-drink-list.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { WineListComponent } from './wine-list/wine-list.component';
     DrinkAgainComponent,
     KeepDrinkingComponent,
     NewBadgeComponent,
-    WineListComponent
+    WineListComponent,
+    WineKeepDrinkListComponent
   ],
   imports: [
     BrowserModule,
