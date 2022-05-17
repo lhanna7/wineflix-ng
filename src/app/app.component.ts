@@ -13,4 +13,5 @@ export class AppComponent {
   title = 'angular-template';
   wines = wines
   heroContent = heroContent
+
 }

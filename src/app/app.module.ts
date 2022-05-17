@@ -15,8 +15,6 @@ import { HeroContentComponent } from './hero-content/hero-content.component';
 import { DrinkAgainComponent } from './drink-again/drink-again.component';
 import { KeepDrinkingComponent } from './keep-drinking/keep-drinking.component';
 import { NewBadgeComponent } from './new-badge/new-badge.component';
-import { WineListComponent } from './wine-list/wine-list.component';
-import { WineKeepDrinkListComponent } from './wine-keep-drink-list/wine-keep-drink-list.component';
 import { AmountConsumedComponent } from './amount-consumed/amount-consumed.component';
 
 @NgModule({
@@ -33,8 +31,6 @@ import { AmountConsumedComponent } from './amount-consumed/amount-consumed.compo
     DrinkAgainComponent,
     KeepDrinkingComponent,
     NewBadgeComponent,
-    WineListComponent,
-    WineKeepDrinkListComponent,
     AmountConsumedComponent
   ],
   imports: [
