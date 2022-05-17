@@ -92,7 +92,14 @@ export const wines: Wine[] = [{
   label: 'Wine',
 }];
 
-export const heroContent = {
+type Hero = {
+  title: string,
+  subtitle: string,
+  imageUrl: string,
+  description: string
+}
+
+export const heroContent: Hero = {
   title: 'Rex Goliath',
   subtitle: 'His Royal Majesty is back.',
   imageUrl: '/assets/rex-goliath-logo.png',

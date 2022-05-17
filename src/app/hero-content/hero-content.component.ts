@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { heroContent } from '../data';
 
 @Component({
   selector: 'app-hero-content',
@@ -7,5 +8,6 @@ import { Component } from '@angular/core';
 })
 export class HeroContentComponent {
 
+    heroContent = heroContent
 
 }
